@@ -14,11 +14,22 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
     />
 
-    <title>YZM PRints</title>
+        <!-- ---- Font Awesome ---- -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+
+    <title>YZM Prints</title>
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark py-3 navbar-dark fixed-top">
+    <nav
+      class="navbar navbar-expand-lg bg-secondary py-3 navbar-dark fixed-top"
+    >
       <div class="container">
         <a href="index.html" class="navbar-brand">YZM Prints</a>
 
@@ -29,17 +40,15 @@
           data-bs-target="#navmenu"
         >
           <span class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="services.html" class="nav-link">Services</a>
+              <a href="contact.html" class="nav-link">Contact Us |</a>
             </li>
             <li class="nav-item">
-              <a href="testimonials.html" class="nav-link">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a href="contact.html" class="nav-link">Contact</a>
+              <a href="products.html" class="nav-link">Products |</a>
             </li>
           </ul>
         </div>
@@ -52,7 +61,7 @@
     <div class="container p-5">
       <div class="row align-items-center">
         <div class="col-lg-4">
-          <img class="w-100" src="img/cntact.jpg" alt="Contact Image" />
+          <img class="w-100" src="img/39.png" alt="Contact Image" />
         </div>
         <div class="col-lg-6 offset-lg-1">
           <form>
@@ -97,7 +106,6 @@
             <li class="list-group-item">
               <span class="fw-bold">Enrollment Email:</span> yzmprints@gmail.com
             </li>
-           
           </ul>
         </div>
         <div class="col-md-6">
@@ -117,7 +125,7 @@
     </div>
   </section>
 
-  <!-- Footers -->
+  <!-- Footers
   <footer class="p-5 bg-dark text-white text-center position-relative">
     <div class="container">
       <p class="lead">Copyright &copy; 2022 YZM Prints</p>
@@ -125,8 +133,88 @@
         <i class="bi bi-arrow-up-circle h1"></i>
       </a>
     </div>
+  </footer> -->
+
+  <footer class="bg-dark py-5">
+    <div class="container">
+      <div class="row text-white g-4">
+        <div class="col-md-6 col-lg-3">
+          <a href="" class="brand text-decoration-none text-white">YZM Prints</a>
+        
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h5 class="fw-light">Links</h5>
+          <ul class="list-unstyled">
+            <li class="my-3">
+              <a href="" class="text-white text-decoration-none text-muted"
+                ><i class="fa fa-chevron-right me-1"></i>Home</a
+              >
+            </li>
+            <li class="my-3">
+              <a href="contact.html" class="text-white text-decoration-none text-muted"
+                ><i class="fa fa-chevron-right me-1"></i>Contact Us</a
+              >
+            </li>
+          
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h5 class="fw-light mb-3">Contact Us</h5>
+          <div
+            class="d-flex justify-content-start align-items-start my-2 text-muted"
+          >
+            <span class="me-3"><i class="fa fa-envelope"></i></span>
+            <span class="fw-light">yzmprints@gmail.com</span>
+          </div>
+          <div
+            class="d-flex justify-content-start align-items-start my-2 text-muted"
+          >
+            <span class="me-3"><i class="fa fa-map-marked"></i></span>
+            <span class="fw-light"
+              >East Rembo, Makati City, Philippines</span
+            >
+          </div>
+          <div
+            class="d-flex justify-content-start align-items-start my-2 text-muted"
+          >
+            <span class="me-3"><i class="fa fa-phone"></i></span>
+            <span class="fw-light">09271234567</span>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h5 class="fw-light mb-3">Follow Us</h5>
+          <ul class="list-unstyled d-flex">
+            <li class="text-decoration-none text-muted fs-4 me-4">
+              <i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="text-decoration-none text-muted fs-4 me-4">
+              <i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="text-decoration-none text-muted fs-4 me-4">
+              <i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="text-decoration-none text-muted fs-4 me-4">
+              <i class="fab fa-pinterest"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
   </footer>
 
   <!-- ---- Bootstrap JS ---- -->
   <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- ---- JQuery JS ---- -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- ---- Isotope JS ---- -->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+  <!-- ---- Bootstrap JS ---- -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- ---- Custom JS ---- -->
+  <script src="js/main.js"></script>
 </html>
